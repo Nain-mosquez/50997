@@ -1,8 +1,10 @@
-x = 2 + 3
-y = 3
-z = x + y
-z
-
-
-
+programa Saludo {
+  procesar {
+    nombre= "Juan";
+    imprimir("Hola, " + nombre + "!");
+  } 
+  manejarError(e) {
+    imprimir("Error: Variable no definida");
+  }
+}
 

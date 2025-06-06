@@ -1,16 +1,23 @@
 {
-  "name": "antlr-calculator-project",
-  "type": "module",
+  "name": "proyectoanalizador",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrachetta/ssl-antlr-calculator.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbrachetta/ssl-antlr-calculator/issues"
+  },
+  "homepage": "https://github.com/mbrachetta/ssl-antlr-calculator#readme",
+  "description": "",
   "dependencies": {
     "antlr4": "^4.13.2"
   }
