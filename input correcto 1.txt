@@ -1,0 +1,10 @@
+programa Saludo {
+  procesar {
+    nombre= "Juan";
+    imprimir("Hola, " + nombre + "!");
+  } 
+  manejarError(e) {
+    imprimir("Error: Variable no definida");
+  }
+}
+

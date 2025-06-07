@@ -1,0 +1,31 @@
+Tarea: Construcción de un Analizador con ANTLR4 y JavaScript
+Tema: 25914_2
+
+
+<programa> ::= "programa" <identificador> "{" { <instrucción> } "}"
+
+<instrucción> ::= <asignación> | <excepción> | <bloque> | <imprimir>
+
+<asignación> ::= <identificador> "=" <expresión> ";"
+
+<excepción> ::= "procesar" <bloque> "manejarError" "(" <identificador> ")" <bloque> ";"
+
+<bloque> ::= "{" { <instrucción> } "}"
+
+<imprimir> ::= "imprimir" "(" <expresión> ")" ";"
+
+<expresión> ::= <término> ( <identificador> <término> )*
+
+<término> ::= <número> | <identificador> | <cadena>
+
+<número> ::= { <dígito> }+
+
+<cadena> ::= '"' { <caracter> } '"'
+
+<caracter> ::= <letra> | <dígito> | <símbolo>
+
+<dígito> ::= "0" | ... | "9"
+
+<letra> ::= "a" | "b" | ... | "z" | "A" | "B" | ... | "Z"
+
+<símbolo> ::= "," | "." | "!" | ":" | "-" | "_" | "?" | "!"

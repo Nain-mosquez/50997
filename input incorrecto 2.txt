@@ -1,0 +1,4 @@
+programa {
+    x = 10
+    imprimir("Hola mundo");
+}

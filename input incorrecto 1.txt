@@ -1,0 +1,9 @@
+programa Fallo {
+    procesar {
+        x = "hola"
+        imprimir("Mensaje: " + x);
+    }
+    manejarError(e) {
+        imprimir("Error!");
+    }
+}

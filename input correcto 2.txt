@@ -1,0 +1,9 @@
+programa Calculadora {
+    procesar {
+        resultado = 4;
+        imprimir("Resultado: " + resultado);
+    }
+    manejarError(err) {
+        imprimir("Ocurrió un error");
+    }
+}
