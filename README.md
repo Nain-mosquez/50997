@@ -10,9 +10,7 @@ Utiliza ANTLR4 para generar analizadores léxicos y sintácticos.
 
 -Funcionalidades: Detecta errores de sintaxis, muestra el árbol de derivación, genera una tabla de tokens.
 
--Instalación: clona este repositorio: git clone
- 
-https://github.com/Nain-mosquez/50997
+-Instalación: clona este repositorio: git clone https://github.com/Nain-mosquez/50997
 
 Uso: Estribe tu código en un input.txt, ejecuta el programa con Node: node index.js. El programa verificara si hay errores de sintaxis, mostrara el árbol de derivación y los tokens.  
 
